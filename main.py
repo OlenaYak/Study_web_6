@@ -17,7 +17,7 @@ def execute_sql_file(cursor, filename):
 
 def main():
     try:
-        conn = psycopg2.connect(host='localhost', database='test', user='myuser', password='mypass')
+        conn = psycopg2.connect(host='localhost', database='test', user='111', password='111')
         cur = conn.cursor()
 
         # Створення таблиць
